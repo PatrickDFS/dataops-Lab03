@@ -32,7 +32,7 @@ Resources:
       ImageId: ami-0dc2d3e4c0f9ebd18
       InstanceType: t2.micro
       KeyName: !Sub ${key}
-      SecurityGroupIds:
+      SecurityGroupIds: 
         - !Ref SecurityGroup
       IamInstanceProfile: !Sub ${iamprofile}
       Tags:
